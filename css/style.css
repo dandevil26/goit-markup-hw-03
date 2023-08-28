@@ -238,6 +238,15 @@ body {
     align-items: center
 }
 
+.team-section-header {
+    color: var(--navyblue, #2E2F42);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
 .teams {
     list-style: none;
     display: flex;
