@@ -187,6 +187,11 @@ address {
     cursor: pointer;
 }
 
+.feature-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .feature-section-container {
     width: 1158px;
     padding: 0px 15px;
@@ -194,13 +199,9 @@ address {
     margin-right: auto;
 }
 
-.feature-section {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-
 .feature {
     display: flex;
+    flex-wrap: wrap;
     gap: 24px;
 }
 
@@ -281,7 +282,7 @@ address {
 }
 
 .team-description {
-    padding: 32px 0px;
+    padding: 32px 18px;
     text-align: center;
 }
 
@@ -339,27 +340,20 @@ address {
     line-height: 1.5em;
 }
 
-.button-container {
-    width: 1158px;
-    padding: 0px 15px;
-    margin-left: auto;
-    margin-right: auto;
+.feature-container{
+    
 }
 
-.feature-section {
-    padding: 96px 156px 120px 156px;
-}
+
 
 .buttons {
     display: flex;
-    flex-wrap: wrap;
     gap: 24px;
     justify-content: center;
     margin-bottom: 72px;
 }
 
 .button {
-    flex-basis: calc(100% - 120px / 5);
     padding: 12px 24px;
     border-radius: 4px;
     border: 1px solid var(--cornflower);
@@ -396,8 +390,6 @@ address {
 
 .feature-list {
     margin-bottom: 24px;
-    border: 1px solid var(--cornflower, #E7E9FC);
-    background: var(--white, #FFF);
 }
 
 .feature-heading {
@@ -418,4 +410,7 @@ address {
 
 .feature-list-description {
     padding: 32px 16px;
+    border: 1px solid var(--cornflower, #E7E9FC);
+    border-top: none;
+    background: var(--white, #FFF);
 }
